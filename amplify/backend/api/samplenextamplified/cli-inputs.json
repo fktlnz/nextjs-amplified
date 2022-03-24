@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "samplenextamplified",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "D:\\01.study\\amplify\\tutorial\\nextjs\\next-amplified\\amplify\\backend\\api\\samplenextamplified\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7,
+      "apiKeyExpirationDate": "2022-03-30T15:09:00.564Z",
+      "keyDescription": ""
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AMAZON_COGNITO_USER_POOLS",
+        "cognitoUserPoolId": "authsamplenextamplifiedb50dc4e9"
+      }
+    ]
+  }
+}
