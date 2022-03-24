@@ -53,7 +53,7 @@ export default function Home({ posts = [] }) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Amplify + Next.js</h1>
+        <h1 className={styles.title}>Mod!Amplify + Next.js</h1>
 
         <p className={styles.description}>
           <code className={styles.code}>{posts.length}</code>
