@@ -48,12 +48,12 @@ export default function Home({ posts = [] }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Amplify + Next.js</title>
+        <title>[Staging]Amplify + Next.js</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Amplify + Next.js</h1>
+        <h1 className={styles.title}>[Staging]Amplify + Next.js</h1>
 
         <p className={styles.description}>
           <code className={styles.code}>{posts.length}</code>

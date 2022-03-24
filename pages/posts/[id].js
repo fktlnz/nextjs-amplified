@@ -68,7 +68,7 @@ export default function Post({ post }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>{post.title} – Amplify + Next.js</title>
+        <title>[Staging]{post.title} – Amplify + Next.js</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
